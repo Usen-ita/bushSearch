@@ -1,0 +1,614 @@
+@font-face {
+    font-family: 'BespokeStencil-Bold';
+    src: url('materials/fonts/BespokeStencil-Bold.woff2') format('woff2'),
+        url('materials/fonts/BespokeStencil-Bold.woff') format('woff'),
+        url('materials/fonts/BespokeStencil-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Supreme-Regular';
+    src: url('materials/fonts/Supreme-Regular.woff2') format('woff2'),
+        url('materials/fonts/Supreme-Regular.woff') format('woff'),
+        url('materials/fonts/Supreme-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Supreme-Bold';
+    src: url('materials/fonts/Supreme-Bold.woff2') format('woff2'),
+        url('materials/fonts/Supreme-Bold.woff') format('woff'),
+        url('materials/fonts/Supreme-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: none !important;
+}
+
+body {
+    /* Primary white */
+
+    background: #FBFFFE;
+}
+
+body.active {
+    background: #4C2E05;
+}
+
+.logoIcon {
+    position: absolute;
+    width: 146.12px;
+    height: 32px;
+    left: 108px;
+    top: 16px;
+}
+
+.helpIcon {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 87.88px;
+    top: 16px;
+
+}
+
+section {
+    position: absolute;
+    width: 775px;
+    height: 128.72px;
+    top: 0px;
+    background: transparent;
+}
+
+@media only screen and (min-width: 1540px) {
+
+    section {
+        position: absolute;
+        width: 775px;
+        height: 128.72px;
+        left: 0px;
+        top: 0px;
+        left: 10%;
+        background: transparent;
+    }
+
+}
+
+
+
+section .l1 {
+    /* HOW CAN I */
+
+
+    position: relative;
+    width: 187px;
+    height: 37.81px;
+    left: 257px;
+    top: 161px;
+
+    font-family: 'BespokeStencil-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    /* or 121% */
+
+
+    /* Primary brown */
+
+    color: #4C2E05;
+}
+
+section .l1.active {
+    color: #F3C178;
+}
+
+
+section .l2 {
+    /* SURVIVE WITH */
+
+
+    position: absolute;
+    width: 245px;
+    height: 37.81px;
+    left: 354px;
+    top: 198.81px;
+
+    font-family: 'BespokeStencil-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    /* or 121% */
+
+
+    /* Primary brown */
+
+    color: #4C2E05;
+}
+
+section .l2.active {
+    color: #F3C178;
+}
+
+section .l3 {
+    /* IN THE */
+
+
+    position: absolute;
+    width: 112px;
+    height: 37.81px;
+    left: 1040px;
+    top: 316px;
+
+    font-family: 'BespokeStencil-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    /* or 121% */
+
+    /* Primary brown */
+
+    color: #4C2E05;
+}
+
+section .l3.active {
+    color: #F3C178;
+}
+
+section .l4 {
+    /* FOREST? */
+
+
+
+    position: absolute;
+    width: 143px;
+    height: 37.81px;
+    left: 1089px;
+    top: 351.91px;
+
+    font-family: 'BespokeStencil-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    /* or 121% */
+
+    /* Primary brown */
+
+    color: #4C2E05;
+}
+
+section .l4.active {
+    color: #F3C178;
+}
+
+section .textInput {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+
+    position: absolute;
+    width: 390px;
+    height: 73px;
+    left: 515px;
+    top: 241px;
+
+}
+
+section .textInput .query {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 11px;
+    padding-right: 70px;
+    gap: 10px;
+
+
+    width: 590px;
+    height: 74px;
+
+    /* Default/White */
+
+    background: #FBFFFE;
+    /* Borders/Text Input/Field Border */
+
+    box-shadow: 0px 0px 0px 2px #CDD1DC;
+    border-radius: 6px;
+    border: none;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+section .textInput .query.active {
+    background: #4C2E05;
+    box-shadow: 0px 0px 0px 1px #F3C178;
+    color: #F3C178;
+}
+
+
+input {
+    width: 184px;
+    height: 24px;
+
+    font-family: 'Bespoke Stencil';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 24px;
+    /* identical to box height, or 71% */
+    text-transform: uppercase;
+
+
+    color: #4C2E05;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+input::placeholder {
+    /* TOOL NAME... */
+    color: rgba(76, 46, 5, 0.5);
+}
+
+input.active::placeholder {
+    color: rgba(243, 193, 120, 0.5);
+}
+
+
+section .textInput .searchButton {
+    /* Auto layout */
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    margin-left: 525px;
+    margin-top: 10px;
+
+    width: 53.33px;
+    height: 54.67px;
+
+    /* Primary brown */
+
+    background: #4C2E05;
+    border-radius: 6px;
+    border: none;
+
+}
+
+section .textInput .searchButton.active {
+    background: #F3C178;
+}
+
+section .textInput .searchButton img {
+    /* background-color: #4C2E05; */
+    width: 25.33px;
+    height: 26.67px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+section .textInput .disclaimer {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 6px;
+
+    width: 223px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+
+    width: 223px;
+    height: 24px;
+
+    font-family: 'Supreme';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    /* identical to box height, or 141% */
+
+    display: flex;
+    align-items: center;
+
+    color: #816D50;
+
+}
+
+section .textInput .disclaimer.active {
+    color: rgba(243, 193, 120, 0.5);
+}
+
+
+/*----------------- TOOL SELECTOR -------------------------------------*/
+.h2Container {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 0px;
+    gap: 10px;
+
+    position: absolute;
+    width: 56px;
+    height: 42px;
+    left: 110px;
+    bottom: 208px;
+    background: transparent;
+
+
+}
+
+h2 {
+    width: 56px;
+    height: 22px;
+
+    font-family: 'Supreme';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 129% */
+    background: transparent;
+
+    letter-spacing: -0.43px;
+
+    /* Primary Caramel */
+
+    color: #4C2E05;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+h2.active {
+    color: #F3C178;
+}
+
+.lists {
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 194px;
+    left: 0px;
+    bottom: 0px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    cursor: pointer;
+    background: transparent;
+
+}
+
+.lists .list {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0.0513px 4px 8.05127px;
+    gap: 16px;
+
+    position: absolute;
+    width: 1752px;
+    height: 173.1px;
+    left: -26px;
+    top: calc(50% - 173.1px/2 + 0.05px);
+    transition: all 0.2s linear;
+    background: transparent;
+
+}
+
+.lists .list .list-item {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 19px 77px;
+    gap: 25px;
+
+    width: 212px;
+    height: 163px;
+
+    background: linear-gradient(0deg, rgba(251, 255, 254, 0.8), rgba(251, 255, 254, 0.8)), #F3C178;
+    border-radius: 75px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.lists .list .list-item p {
+    width: 88px;
+    height: 34px;
+
+    font-family: 'Supreme';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 17px;
+    /* or 100% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.425px;
+    background: transparent;
+
+    color: rgba(76, 46, 5, 0.7);
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.lists .list .list-item img {
+    background: transparent;
+    align-items: center;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/*----------------- ERROR PREVENTION TIP -------------------------------------*/
+
+.hint {
+    display: none;
+    position: absolute;
+    width: 215px;
+    height: 178px;
+    left: 20%;
+    top: 45%;
+    background: transparent;
+}
+
+@media only screen and (min-width: 1540px) {
+
+    .hint {
+        display: none;
+        position: absolute;
+        width: 215px;
+        height: 178px;
+        left: 30%;
+        top: 58%;
+        background: transparent;
+    }
+
+}
+
+.hint img {
+
+    background: transparent;
+
+}
+
+.hint p {
+    /* Try clicking an item form the tool kit into the search box */
+
+
+    position: absolute;
+    background: transparent;
+    width: 215px;
+    height: 44px;
+    left: -70px;
+    top: 40%;
+
+    font-family: 'Supreme';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    /* or 129% */
+
+    letter-spacing: -0.43px;
+
+    color: rgba(76, 46, 5, 0.7);
+}
+
+.hint.active p {
+    color: #F3C178;
+}
+
+/*----------------- Display toggle button -------------------------------------*/
+
+#toggle {
+    position: absolute;
+    display: block;
+    width: 64px;
+    height: 32px;
+    right: 137.88px;
+    top: 16px;
+    border-radius: 160px;
+    background: #4C2E05;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: inset 0 8px 60px rgba(0, 0, 0, 0.1),
+        inset 0 8px 8px rgba(0, 0, 0, 0.1),
+        inset 0 -4px 4px rgba(0, 0, 0, 0.1);
+}
+
+#toggle.active {
+    background: #F3C178;
+    box-shadow: inset 0 2px 60px rgba(0, 0, 0, 0.1),
+        inset 0 2px 8px rgba(0, 0, 0, 0.1),
+        inset 0 -4px 4px rgba(0, 0, 0, 0.05), ;
+}
+
+#toggle .indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(to bottom, #402805, #4C2E05);
+    border-radius: 50%;
+    transform: scale(0.9);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5),
+        inset 0 4px 4px rgba(255, 255, 255, 0.2),
+        inset 0 -4px 4px rgba(255, 255, 255, 0.2);
+    transition: 0.5s;
+}
+
+#toggle.active .indicator {
+    left: 32px;
+    background: #F3C178;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1),
+        inset 0 4px 4px rgba(255, 255, 255, 1),
+        inset 0 -4px 4px rgba(255, 255, 255, 1);
+}

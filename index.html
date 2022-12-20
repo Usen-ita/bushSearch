@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="../../materials/Icons/Desktop/index_logo.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cusorcss.css">
+    <title>BushSearch</title>
+</head>
+
+<body>
+
+    <img id="logoIcon" class="logoIcon" src="../../materials/Icons/Desktop/logo.png">
+    <img id="helpIcon" class="helpIcon" src="..\materials\Icons\Desktop\Help.png">
+
+    <!-- /Search feature/ -->
+    <section>
+        <h1 class="l1">HOW CAN I</h1>
+        <h1 class="l2">SURVIVE WITH</h1>
+
+        <div class="textInput">
+            <input type="text" name="" class="query" value="" placeholder="TOOL NAME" id="dropHere">
+            <button class="searchButton ">
+                <img src="../../materials/Icons/Desktop/search_vector.png" />
+            </button>
+            </input>
+            <p class="disclaimer">Enhanced by Google.Inc </p>
+        </div>
+
+        <h1 class="l3">IN THE</h1>
+        <h1 class="l4">FOREST?</h1>
+
+    </section>
+
+    <!-- /Tool Selector/ -->
+    <div class="h2Container">
+        <h2>Tool kit</h2>
+    </div>
+    <div class="lists">
+        <div class="list">
+            <div class="list-item">
+                <img id="myImg" alt="pliers" onclick="upload(id)" src="../../materials/toolkit/pliers.png">
+                <p>Pliers</p>
+            </div>
+            <div class="list-item">
+                <img id="myImg2" alt="Emergency Candles" onclick="upload(id)"
+                    src="../../materials/toolkit/emergency_candles.png">
+                <p>Emergency Candles</p>
+            </div>
+            <div class="list-item">
+                <img id="myImg3" alt="Duct Tape" onclick="upload(id)" src="../../materials/toolkit/pliers.png">
+                <p>Duct Tape</p>
+            </div>
+            <div class="list-item">
+                <img id="myImg4" alt="Magnifying glass" onclick="upload(id)" src="../../materials/toolkit/pliers.png">
+                <p>Magnifying glass</p>
+            </div>
+            <div class="list-item">
+                <img id="myImg5" alt="Band-aids" onclick="upload(id)" src="../../materials/toolkit/pliers.png">
+                <p>Band-aids</p>
+            </div>
+            <div class="list-item">
+                <img id="myImg6" alt="Gauze" onclick="upload(id)" src="../../materials/toolkit/pliers.png">
+                <p>Gauze</p>
+            </div>
+            <div class="list-item">
+                <img id="myImg7" alt="signaling mirror" onclick="upload(id)" src="../../materials/toolkit/pliers.png">
+                <p>signaling mirror</p>
+            </div>
+            <div class="list-item">
+                <img id="myImg8" alt="Cotton bud" onclick="upload(id)" src="../../materials/toolkit/pliers.png">
+                <p>Cotton bud</p>
+            </div>
+            <div class="list-item">
+                <img id="myImg9" alt="Flashlight" onclick="upload(id)" src="../../materials/toolkit/pliers.png">
+                <p>Flashlight</p>
+            </div>
+            <div class="list-item">
+                <img id="myImg10" alt="Whistle" onclick="upload(id)" src="../../materials/toolkit/pliers.png">
+                <p>Whistle</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- /Error Prevention tip/ -->
+    <div id="hint" class="hint">
+        <img id="arrow" src="../../materials/Icons/Desktop/Arrow.png">
+        <p>Try clicking an item from the tool kit into the search box. </p>
+    </div>
+
+    <!-- /Display mode toggle/ -->
+    <div id="toggle">
+        <i class="indicator"></i>
+    </div>
+
+    <div class="cursor"></div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
