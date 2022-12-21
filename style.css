@@ -53,12 +53,45 @@ body.active {
     top: 16px;
 }
 
+@media only screen and (max-width: 837px) {
+
+    .logoIcon {
+        position: absolute;
+        width: 146.12px;
+        height: 32px;
+        left: 71px;
+        top: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 390px) {
+
+    .logoIcon {
+        position: absolute;
+        width: 146.12px;
+        height: 32px;
+        left: calc(50% - 91.33px/2 - 112.34px);
+        top: 68px;
+    }
+
+}
+
 .helpIcon {
     position: absolute;
     width: 32px;
     height: 32px;
     right: 87.88px;
     top: 16px;
+
+}
+
+@media only screen and (max-width: 390px) {
+
+    .helpIcon {
+        left: 339px;
+        top: 68px;
+    }
 
 }
 
@@ -80,6 +113,29 @@ section {
         top: 0px;
         left: 10%;
         background: transparent;
+    }
+
+}
+
+@media only screen and (max-width: 837px) {
+    section {
+        position: absolute;
+        width: 652px;
+        height: 228.72px;
+        left: 0px;
+        top: 0px;
+        background: transparent;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+
+    section {
+        position: absolute;
+        width: 328px;
+        height: 194px;
+        left: 0px;
+        top: 0px;
     }
 
 }
@@ -107,6 +163,28 @@ section .l1 {
     /* Primary brown */
 
     color: #4C2E05;
+}
+
+@media only screen and (max-width: 837px) {
+    section .l1 {
+        position: absolute;
+        width: 187px;
+        height: 37.81px;
+        left: 80px;
+        top: 161px;
+
+        font-family: 'BespokeStencil-Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 41px;
+        /* or 121% */
+
+
+        /* Primary brown */
+
+        color: #4C2E05;
+    }
 }
 
 section .l1.active {
@@ -137,6 +215,28 @@ section .l2 {
     color: #4C2E05;
 }
 
+@media only screen and (max-width: 837px) {
+    section .l2 {
+        position: absolute;
+        width: 245px;
+        height: 37.81px;
+        left: 139px;
+        top: 198.81px;
+
+        font-family: 'BespokeStencil-Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 41px;
+        /* or 121% */
+
+
+        /* Primary brown */
+
+        color: #4C2E05;
+    }
+}
+
 section .l2.active {
     color: #F3C178;
 }
@@ -161,6 +261,29 @@ section .l3 {
     /* Primary brown */
 
     color: #4C2E05;
+}
+
+@media only screen and (max-width: 837px) {
+    section .l3 {
+        position: absolute;
+        width: 112px;
+        height: 37.81px;
+        left: 550px;
+        right: 175px;
+        top: 316px;
+
+        font-family: 'BespokeStencil-Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 41px;
+        /* or 121% */
+
+
+        /* Primary brown */
+
+        color: #4C2E05;
+    }
 }
 
 section .l3.active {
@@ -190,6 +313,29 @@ section .l4 {
     color: #4C2E05;
 }
 
+@media only screen and (max-width: 837px) {
+    section .l4 {
+        position: absolute;
+        width: 143px;
+        height: 37.81px;
+        left: 589px;
+        right: 105px;
+        top: 351.91px;
+
+        font-family: 'BespokeStencil-Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 41px;
+        /* or 121% */
+
+
+        /* Primary brown */
+
+        color: #4C2E05;
+    }
+}
+
 section .l4.active {
     color: #F3C178;
 }
@@ -210,6 +356,24 @@ section .textInput {
     left: 515px;
     top: 241px;
 
+}
+
+@media only screen and (max-width: 837px) {
+    section .textInput {
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 10px;
+
+        position: absolute;
+        width: 390px;
+        height: 68.25px;
+        left: 265px;
+        top: 241.24px;
+    }
 }
 
 section .textInput .query {
@@ -242,6 +406,12 @@ section .textInput .query {
     order: 1;
     align-self: stretch;
     flex-grow: 0;
+}
+
+@media only screen and (max-width: 837px) {
+    section .textInput .query {
+        width: 390px;
+    }
 }
 
 section .textInput .query.active {
@@ -304,6 +474,34 @@ section .textInput .searchButton {
     border-radius: 6px;
     border: none;
 
+}
+
+@media only screen and (max-width: 837px) {
+    section .textInput .searchButton {
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 14px;
+        margin-left: 325px;
+        gap: 10px;
+
+        width: 53.33px;
+        height: 54.67px;
+
+        /* Primary brown */
+
+        background: #4C2E05;
+        border-radius: 6px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
 }
 
 section .textInput .searchButton.active {
@@ -383,6 +581,26 @@ section .textInput .disclaimer.active {
 
 }
 
+@media only screen and (max-width: 837px) {
+
+    .h2Container {
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px 0px;
+        gap: 10px;
+
+        position: absolute;
+        width: 56px;
+        height: 42px;
+        left: 73px;
+        bottom: 208px;
+    }
+
+}
+
 h2 {
     width: 56px;
     height: 22px;
@@ -434,17 +652,18 @@ h2.active {
     flex-direction: row;
     align-items: flex-start;
     padding: 0.0513px 4px 8.05127px;
-    gap: 16px;
+    gap: 4px;
 
     position: absolute;
     width: 1752px;
     height: 173.1px;
-    left: -26px;
+    left: -56px;
     top: calc(50% - 173.1px/2 + 0.05px);
     transition: all 0.2s linear;
     background: transparent;
 
 }
+
 
 .lists .list .list-item {
     /* Auto layout */
@@ -468,6 +687,11 @@ h2.active {
     flex-grow: 0;
 }
 
+.lists .list .list-item:hover {
+    background: linear-gradient(0deg, rgba(251, 255, 254, 0.6), rgba(251, 255, 254, 0.6)), #F3C178;
+}
+
+
 .lists .list .list-item p {
     width: 88px;
     height: 34px;
@@ -485,7 +709,7 @@ h2.active {
     letter-spacing: -0.425px;
     background: transparent;
 
-    color: rgba(76, 46, 5, 0.7);
+    color: #4C2E05;
 
 
     /* Inside auto layout */
@@ -494,6 +718,7 @@ h2.active {
     order: 1;
     flex-grow: 0;
 }
+
 
 .lists .list .list-item img {
     background: transparent;
@@ -544,7 +769,7 @@ h2.active {
 
     position: absolute;
     background: transparent;
-    width: 215px;
+    width: 315px;
     height: 44px;
     left: -70px;
     top: 40%;
@@ -581,6 +806,15 @@ h2.active {
     box-shadow: inset 0 8px 60px rgba(0, 0, 0, 0.1),
         inset 0 8px 8px rgba(0, 0, 0, 0.1),
         inset 0 -4px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 390px) {
+
+    #toggle {
+        right: 65px;
+        top: 68px;
+    }
+
 }
 
 #toggle.active {

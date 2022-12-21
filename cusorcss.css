@@ -3,13 +3,24 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #FBFFFE;
+    background: #4C2E05;
     transition: 0.1s;
     transform: translate(-50%, -50%);
     pointer-events: none;
-    mix-blend-mode: difference;
+    mix-blend-mode:hard-light;
 }
 
 body:hover .cursor{
     transform: scale(5);
+}
+
+@media only screen and (max-width: 390px) {
+
+    body:hover .cursor{
+        transform: scale(0);
+    }
+    .cursor{
+        width: 0px;
+        height: 0px;
+    }
 }

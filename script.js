@@ -61,7 +61,6 @@ let inactivityTime = function () {
   }
 };
 inactivityTime();
-console.log('Please wait...');
 
 /**
  * Display toggle
