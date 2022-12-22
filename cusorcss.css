@@ -10,17 +10,17 @@
     mix-blend-mode:hard-light;
 }
 
-body:hover .cursor{
+section:hover .cursor{
     transform: scale(5);
 }
 
 @media only screen and (max-width: 390px) {
 
-    body:hover .cursor{
-        transform: scale(0);
+    section:hover .cursor{
+        transform: scale(1);
     }
     .cursor{
-        width: 0px;
-        height: 0px;
+        width: 20px;
+        height: 20px;
     }
 }

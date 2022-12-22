@@ -7,8 +7,12 @@ let x = "how can I survive with ";
 let y = " in the forest?";
 
 searchBtn.onclick = function () {
-  let url = "https://www.google.co.uk/search?q=" + x + query.value + y;
-  window.open(url);
+  if(query.value.length==0){
+    //  console.log("type something!");
+  }else{
+    let url = "https://www.google.co.uk/search?q=" + x + query.value + y;
+    window.open(url);
+  }
 };
 
 /**

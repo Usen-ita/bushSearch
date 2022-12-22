@@ -134,7 +134,7 @@ section {
         position: absolute;
         width: 328px;
         height: 194px;
-        left: 0px;
+        left: 31px;
         top: 0px;
     }
 
@@ -186,6 +186,30 @@ section .l1 {
         color: #4C2E05;
     }
 }
+@media only screen and (max-width: 390px) {
+
+    section  .l1{
+        position: absolute;
+        width: 187px;
+        height: 37.81px;
+        left: calc(50% - 187px/2 - 70.5px);
+        top: 208px;
+        
+        font-family: 'BespokeStencil-Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 41px;
+        /* or 186% */
+        
+        
+        /* Primary brown */
+        
+        color: #4C2E05;
+    }
+
+}
+
 
 section .l1.active {
     color: #F3C178;
@@ -236,6 +260,30 @@ section .l2 {
         color: #4C2E05;
     }
 }
+@media only screen and (max-width: 390px) {
+
+    section  .l2{
+        position: absolute;
+        width: 245px;
+        height: 37.81px;
+        left: calc(50% - 245px/2 - 17.5px);
+        top: 246px;
+        
+        font-family: 'BespokeStencil-Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 41px;
+        /* or 186% */
+        
+        
+        /* Primary brown */
+        
+        color: #4C2E05;
+        
+    }
+
+}
 
 section .l2.active {
     color: #F3C178;
@@ -284,6 +332,30 @@ section .l3 {
 
         color: #4C2E05;
     }
+}
+@media only screen and (max-width: 390px) {
+
+    section  .l3{
+        position: absolute;
+        width: 83px;
+        height: 38px;
+        left: calc(50% - 83px/2 + 82.5px);
+        top: 326px;
+        
+        font-family: 'BespokeStencil-Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 41px;
+        /* or 186% */
+        
+        
+        /* Primary brown */
+        
+        color: #4C2E05;
+        
+    }
+
 }
 
 section .l3.active {
@@ -335,6 +407,30 @@ section .l4 {
         color: #4C2E05;
     }
 }
+@media only screen and (max-width: 390px) {
+
+    section  .l4{
+        position: absolute;
+        width: 102px;
+        height: 38px;
+        left: calc(50% - 102px/2 + 113px);
+        top: 364px;
+        
+        font-family: 'BespokeStencil-Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 41px;
+        /* or 186% */
+        
+        
+        /* Primary brown */
+        
+        color: #4C2E05;
+        
+    }
+
+}
 
 section .l4.active {
     color: #F3C178;
@@ -375,6 +471,27 @@ section .textInput {
         top: 241.24px;
     }
 }
+@media only screen and (max-width: 390px) {
+
+    section  .textInput {
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 237px;
+height: 42px;
+left: calc(50% - 237px/2 + 26.5px);
+top: 284px;
+
+        
+    }
+
+}
 
 section .textInput .query {
     /* Auto layout */
@@ -412,6 +529,15 @@ section .textInput .query {
     section .textInput .query {
         width: 390px;
     }
+}
+@media only screen and (max-width: 390px) {
+
+    section  .textInput .query {
+        width: 237px;
+        height: 42px;
+
+    }
+
 }
 
 section .textInput .query.active {
@@ -451,6 +577,15 @@ input::placeholder {
 
 input.active::placeholder {
     color: rgba(243, 193, 120, 0.5);
+}
+@media only screen and (max-width: 390px) {
+
+    input {
+        width: 150px;
+        height: 24px;
+        font-size: 22px;
+    }
+
 }
 
 
@@ -503,6 +638,34 @@ section .textInput .searchButton {
         flex-grow: 0;
     }
 }
+@media only screen and (max-width: 390px) {
+
+    section .textInput .searchButton {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 14px;
+        margin-left: 195px;
+        margin-top: 5.5px;
+        gap: 10px;
+        
+        width: 31px;
+        height: 31px;
+        
+        /* Primary brown */
+        
+        background: #4C2E05;
+        border-radius: 6px;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+
+}
 
 section .textInput .searchButton.active {
     background: #F3C178;
@@ -518,6 +681,18 @@ section .textInput .searchButton img {
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+@media only screen and (max-width: 390px) {
+
+    section .textInput .searchButton img {
+        height: 14.670000076293945px;
+        width: 13.93649959564209px;
+        left: 8.53173828125px;
+        top: 8.165008544921875px;
+        border-radius: 0px;
+
+    }
+
 }
 
 section .textInput .disclaimer {
@@ -553,6 +728,14 @@ section .textInput .disclaimer {
     align-items: center;
 
     color: #816D50;
+
+}
+@media only screen and (max-width: 390px) {
+
+    section .textInput .disclaimer {
+        width: 123px;
+        height: 44px;
+    }
 
 }
 
@@ -600,6 +783,13 @@ section .textInput .disclaimer.active {
     }
 
 }
+@media only screen and (max-width: 390px) {
+
+    .h2Container {
+        left: calc(50% - 56px/2 - 130px);
+    }
+
+}
 
 h2 {
     width: 56px;
@@ -644,6 +834,20 @@ h2.active {
     background: transparent;
 
 }
+/*----------------- CUSTOM SCROLLBAR -------------------------------------*/
+/* width */
+.lists::-webkit-scrollbar {
+    width: 20px;
+  }
+/* Handle */
+.lists::-webkit-scrollbar-thumb {
+    background: linear-gradient(0deg, rgba(251, 255, 254, 0.8), rgba(251, 255, 254, 0.8)), #F3C178; 
+    border-radius: 10px;
+  }
+  /* Handle on hover */
+.lists::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(0deg, rgba(251, 255, 254, 0.6), rgba(251, 255, 254, 0.6)), #F3C178; 
+  }
 
 .lists .list {
     /* Auto layout */
@@ -756,10 +960,31 @@ h2.active {
     }
 
 }
+@media only screen and (max-width: 390px) {
+
+    .hint{
+        width: 215px;
+        height: 259.75px;
+        left: 30%;
+        top: 50%;        
+
+    }
+
+}
 
 .hint img {
 
     background: transparent;
+
+}
+@media only screen and (max-width: 390px) {
+
+    .hint img{
+        width: 117.5px;
+        height: 235px;
+        transform: rotate(-17.91deg);       
+
+    }
 
 }
 
@@ -784,6 +1009,17 @@ h2.active {
     letter-spacing: -0.43px;
 
     color: rgba(76, 46, 5, 0.7);
+}
+@media only screen and (max-width: 390px) {
+
+    .hint p{
+        width: 215px;
+        height: 44px;
+        left: -70px;
+        top: 40%;      
+
+    }
+
 }
 
 .hint.active p {
