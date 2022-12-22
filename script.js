@@ -61,7 +61,7 @@ let inactivityTime = function () {
   }
   function resetTimer() {
     clearTimeout(time);
-    time = setTimeout(showTip, 10000)
+    time = setTimeout(showTip, 60000)
   }
 };
 inactivityTime();

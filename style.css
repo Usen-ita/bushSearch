@@ -72,7 +72,7 @@ body.active {
         width: 146.12px;
         height: 32px;
         left: calc(50% - 91.33px/2 - 112.34px);
-        top: 68px;
+        top: 16px;
     }
 
 }
@@ -90,7 +90,7 @@ body.active {
 
     .helpIcon {
         left: 339px;
-        top: 68px;
+        top: 16px;
     }
 
 }
@@ -135,7 +135,7 @@ section {
         width: 328px;
         height: 194px;
         left: 31px;
-        top: 0px;
+        top: 71px;
     }
 
 }
@@ -193,7 +193,7 @@ section .l1 {
         width: 187px;
         height: 37.81px;
         left: calc(50% - 187px/2 - 70.5px);
-        top: 208px;
+        top: 71px;
         
         font-family: 'BespokeStencil-Bold';
         font-style: normal;
@@ -267,7 +267,7 @@ section .l2 {
         width: 245px;
         height: 37.81px;
         left: calc(50% - 245px/2 - 17.5px);
-        top: 246px;
+        top: 109px;
         
         font-family: 'BespokeStencil-Bold';
         font-style: normal;
@@ -340,7 +340,7 @@ section .l3 {
         width: 83px;
         height: 38px;
         left: calc(50% - 83px/2 + 82.5px);
-        top: 326px;
+        top: 189px;
         
         font-family: 'BespokeStencil-Bold';
         font-style: normal;
@@ -414,7 +414,7 @@ section .l4 {
         width: 102px;
         height: 38px;
         left: calc(50% - 102px/2 + 113px);
-        top: 364px;
+        top: 227px;
         
         font-family: 'BespokeStencil-Bold';
         font-style: normal;
@@ -486,7 +486,8 @@ position: absolute;
 width: 237px;
 height: 42px;
 left: calc(50% - 237px/2 + 26.5px);
-top: 284px;
+top: 147px;
+
 
         
     }
@@ -515,7 +516,7 @@ section .textInput .query {
 
     box-shadow: 0px 0px 0px 2px #CDD1DC;
     border-radius: 6px;
-    border: none;
+    border: 1px solid #402805;
 
     /* Inside auto layout */
 
@@ -535,7 +536,7 @@ section .textInput .query {
     section  .textInput .query {
         width: 237px;
         height: 42px;
-
+        
     }
 
 }
@@ -544,6 +545,7 @@ section .textInput .query.active {
     background: #4C2E05;
     box-shadow: 0px 0px 0px 1px #F3C178;
     color: #F3C178;
+    border: 1px solid #F3C178;
 }
 
 
@@ -963,6 +965,7 @@ h2.active {
 @media only screen and (max-width: 390px) {
 
     .hint{
+        display: none;
         width: 215px;
         height: 259.75px;
         left: 30%;
@@ -1048,7 +1051,7 @@ h2.active {
 
     #toggle {
         right: 65px;
-        top: 68px;
+        top: 16px;
     }
 
 }
