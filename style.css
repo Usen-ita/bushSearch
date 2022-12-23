@@ -65,7 +65,7 @@ body.active {
 
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
 
     .logoIcon {
         position: absolute;
@@ -86,7 +86,7 @@ body.active {
 
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
 
     .helpIcon {
         left: 339px;
@@ -128,7 +128,7 @@ section {
     }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
 
     section {
         position: absolute;
@@ -186,7 +186,7 @@ section .l1 {
         color: #4C2E05;
     }
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
 
     section  .l1{
         position: absolute;
@@ -260,7 +260,7 @@ section .l2 {
         color: #4C2E05;
     }
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
 
     section  .l2{
         position: absolute;
@@ -333,7 +333,7 @@ section .l3 {
         color: #4C2E05;
     }
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
 
     section  .l3{
         position: absolute;
@@ -407,7 +407,7 @@ section .l4 {
         color: #4C2E05;
     }
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
 
     section  .l4{
         position: absolute;
@@ -471,7 +471,7 @@ section .textInput {
         top: 241.24px;
     }
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
 
     section  .textInput {
 /* Auto layout */
@@ -531,7 +531,7 @@ section .textInput .query {
         width: 390px;
     }
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
 
     section  .textInput .query {
         width: 237px;
@@ -580,7 +580,7 @@ input::placeholder {
 input.active::placeholder {
     color: rgba(243, 193, 120, 0.5);
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
 
     input {
         width: 150px;
@@ -640,7 +640,7 @@ section .textInput .searchButton {
         flex-grow: 0;
     }
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
 
     section .textInput .searchButton {
         display: flex;
@@ -684,7 +684,7 @@ section .textInput .searchButton img {
     order: 0;
     flex-grow: 0;
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
 
     section .textInput .searchButton img {
         height: 14.670000076293945px;
@@ -732,7 +732,7 @@ section .textInput .disclaimer {
     color: #816D50;
 
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
 
     section .textInput .disclaimer {
         width: 123px;
@@ -785,7 +785,7 @@ section .textInput .disclaimer.active {
     }
 
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
 
     .h2Container {
         left: calc(50% - 56px/2 - 130px);
@@ -962,7 +962,7 @@ h2.active {
     }
 
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
 
     .hint{
         display: none;
@@ -980,7 +980,7 @@ h2.active {
     background: transparent;
 
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
 
     .hint img{
         width: 117.5px;
@@ -1013,7 +1013,7 @@ h2.active {
 
     color: rgba(76, 46, 5, 0.7);
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
 
     .hint p{
         width: 215px;
@@ -1047,7 +1047,7 @@ h2.active {
         inset 0 -4px 4px rgba(0, 0, 0, 0.1);
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
 
     #toggle {
         right: 65px;
