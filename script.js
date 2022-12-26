@@ -8,10 +8,11 @@ let y = " in the forest?";
 
 searchBtn.onclick = function () {
   if(query.value.length==0){
-    //  console.log("type something!");
+    //do nothing
   }else{
     let url = "https://www.google.co.uk/search?q=" + x + query.value + y;
-    window.open(url, "_self");
+    window.open(url);
+    // window.open(url, "_self");
   }
 };
 
