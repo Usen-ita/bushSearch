@@ -32,7 +32,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor: none !important;
+    /* cursor: none !important; */
 }
 
 body {
@@ -83,6 +83,7 @@ body.active {
     height: 32px;
     right: 87.88px;
     top: 16px;
+    cursor: pointer;
 
 }
 
@@ -1085,3 +1086,64 @@ h2.active {
         inset 0 4px 4px rgba(255, 255, 255, 1),
         inset 0 -4px 4px rgba(255, 255, 255, 1);
 }
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #FBFFFE;
+    color: #4C2E05;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    
+    font-family: 'Supreme-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+
+    border-radius: 75px;
+  }
+  .modal-content p{
+    margin-left: 36px;
+    width: 80%;
+  }
+  .modal-content.active {
+    background-color: #4C2E05;
+    color: #F3C178;
+    border: 1px solid #F3C178
+    }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #4C2E05;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .close.active:hover,
+  .close.active:focus{
+    color: #F3C178;
+  }
