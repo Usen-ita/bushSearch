@@ -845,12 +845,12 @@ h2.active {
   }
 /* Handle */
 .lists::-webkit-scrollbar-thumb {
-    background: linear-gradient(0deg, rgba(251, 255, 254, 0.8), rgba(251, 255, 254, 0.8)), #F3C178; 
+    background: linear-gradient(0deg, rgba(251, 255, 254, 0.493), rgba(251, 255, 254, 0.493)), #c8913f; 
     border-radius: 10px;
   }
   /* Handle on hover */
 .lists::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(0deg, rgba(251, 255, 254, 0.6), rgba(251, 255, 254, 0.6)), #F3C178; 
+    background: linear-gradient(0deg, rgba(251, 255, 254, 0.6), rgba(251, 255, 254, 0.6)), #9b7031; 
   }
 
 .lists .list {
@@ -1089,6 +1089,7 @@ h2.active {
         inset 0 -4px 4px rgba(255, 255, 255, 1);
 }
 
+/*----------------- System instructions and project summary -------------------------------------*/
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
