@@ -164,6 +164,7 @@ section .l1 {
     /* Primary brown */
 
     color: #4C2E05;
+    
 }
 
 @media only screen and (max-width: 837px) {
@@ -866,6 +867,7 @@ h2.active {
     height: 173.1px;
     left: -56px;
     top: calc(50% - 173.1px/2 + 0.05px);
+    
     transition: all 0.2s linear;
     background: transparent;
 
