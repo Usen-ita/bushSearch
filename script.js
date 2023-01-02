@@ -11,9 +11,8 @@ searchBtn.onclick = function () {
     //do nothing
   } else {
     let url = "https://www.google.co.uk/search?q=" + x + query.value + y;
-    window.open(url); 
+    window.open(url);
     // window.open(url, "_self");
-
   }
 };
 
@@ -174,6 +173,30 @@ window.onclick = function (event) {
 };
 
 /**
+ * System instructions and project summary
+ */
+function endIntro() {
+  document.getElementById("introCover").style.display = "none";
+  
+
+  //Aesthetic animations
+  anime({
+    targets: [".list-item"], //['.l1', '.l2','.textInput', '.l3', '.l4'],
+    keyframes: [{ translateX: 27 }],
+    duration: 8000,
+    delay: anime.stagger(50, { easing: "easeInQuad" }),
+  });
+
+  anime({
+    targets: [".l1", ".l2", ".l3", ".l4"],
+    keyframes: [{ translateX: -27 }, { translateX: 0 }],
+    duration: 3000,
+    delay: anime.stagger(150, { easing: "easeOutQuint" }),
+    // easing: 'easeOutQuint'
+  });
+}
+
+/**
  * Signature
  */
 function Sign() {
@@ -185,25 +208,23 @@ function Sign() {
 Sign();
 
 /**
- * Aesthetic animations
+ * Into Aesthetic animations
  */
 anime({
-  targets:  ['.list-item'], //['.l1', '.l2','.textInput', '.l3', '.l4'],
-  keyframes: [
-    {translateX: 27},
-  ],
-  duration: 8000,
-  delay: anime.stagger(50, {easing: 'easeInQuad'})
+  targets: ".introText",
+  keyframes: [{ opacity: 1 }, { opacity: 0 }],
+  duration: 5000,
 });
 
 anime({
-  targets:  ['.l1', '.l2', '.l3', '.l4'],
-  keyframes: [
-    {translateX: -27},
-    {translateX: 0},
-  ],
-  duration: 3000,
-   delay: anime.stagger(150, {easing: 'easeOutQuint'}),
-  // easing: 'easeOutQuint'
+  targets: ".introText2",
+  keyframes: [{ opacity: 1 }, { opacity: 0 }],
+  delay: 4000,
+  duration: 20000,
 });
-
+anime({
+  targets: ".enteranceBtn",
+  keyframes: [{ opacity: 1 }],
+  delay: 16000,
+  duration: 1000,
+});

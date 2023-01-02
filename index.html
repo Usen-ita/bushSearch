@@ -13,7 +13,16 @@
 
 <body>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+        integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- System introduction -->
+    <div class="introCover" id="introCover">
+        <p class="introText"> Welcome to BushSearch</p>
+        <p class="introText2"> The application that disrupts the Bushcraft formal educational system</p>
+        <button class="enteranceBtn" onclick="endIntro()">Enter</button>
+    </div>
 
     <img id="logoIcon" class="logoIcon" src="../../materials/Icons/Desktop/logo.png">
     <img id="helpIcon" class="helpIcon" src="..\materials\Icons\Desktop\Help.png">
@@ -106,17 +115,27 @@
         <div class="modal-content">
             <span class="close">&times;</span>
             <p>Why BushSearch was developed<br>
-                BushSearch was developed to aid the informal learning of Bushcraft. Bushcraft is the use and practice of skills that allow one’s survival in a natural environment. The application targets adults in the United Kingdom(UK) interested in learning Bushcraft in their own time outside the formal educational system.<br>
+                BushSearch was developed to aid the informal learning of Bushcraft. Bushcraft is the use and practice of
+                skills that allow one’s survival in a natural environment. The application targets adults in the United
+                Kingdom(UK) interested in learning Bushcraft in their own time outside the formal educational
+                system.<br>
                 <br>
                 Purpose of the Search tool<br>
-                The search tool retrieves bushcraft content from keywords typed by the user. For example, a user may type, "How can I survive with a cotton bud in the forest", and then the system will retrieve bushcraft content related to the keyword, cotton bud.<br>
+                The search tool retrieves bushcraft content from keywords typed by the user. For example, a user may
+                type, "How can I survive with a cotton bud in the forest", and then the system will retrieve bushcraft
+                content related to the keyword, cotton bud.<br>
                 <br>
                 Purpose of the Tool kit<br>
-                The tool kit is a preloaded object classification. The preloaded objects are survival kit items such as candles and matches, spare batteries, and a first aid kit. The preloaded objects are displayed on the user interface for users (who may not know what to search for) to select the items into the search tool.</p>
+                The tool kit is a preloaded object classification. The preloaded objects are survival kit items such as
+                candles and matches, spare batteries, and a first aid kit. The preloaded objects are displayed on the
+                user interface for users (who may not know what to search for) to select the items into the search tool.
+            </p>
 
         </div>
 
     </div>
+
+
 
     <div class="cursor"></div>
     <script src="script.js"></script>
