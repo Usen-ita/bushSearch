@@ -1,14 +1,31 @@
 .cursor{
     position: fixed;
-    width: 20px;
-    height: 20px;
+    /* width: 20px;
+    height: 20px; */
+    width: 372px;
+    height: 372px;
     border-radius: 50%;
     background: #4C2E05;
+    opacity: 0.6;
+    filter: blur(50px);
+
     transition: 0.1s;
     transform: translate(-50%, -50%);
     pointer-events: none;
     mix-blend-mode:hard-light;
+
+    animation-name: colouranimation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    
 }
+@keyframes colouranimation {
+    0%   {background-color:#4C2E05}
+    25%  {background-color:yellow}
+    50%  {background-color:#F3C178}
+    75%  {background-color:green}
+    100% {background-color:#4C2E05}
+  }
 
 section:hover .cursor{
     transform: scale(5);
@@ -22,5 +39,6 @@ section:hover .cursor{
     .cursor{
         width: 0px;
         height: 0px;
+    
     }
 }
