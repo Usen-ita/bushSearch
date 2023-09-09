@@ -531,11 +531,21 @@ section .textInput .query {
     order: 1;
     align-self: stretch;
     flex-grow: 0;
+
+}
+
+section .textInput .query:focus-visible {
+    outline: 3.5px solid #0DD67F;
+
 }
 
 @media only screen and (max-width: 837px) {
     section .textInput .query {
         width: 390px;
+    }
+    section .textInput .query:focus-visible {
+        outline: 3.5px solid #0DD67F;
+    
     }
 }
 
@@ -545,6 +555,10 @@ section .textInput .query {
         width: 237px;
         height: 42px;
 
+    }
+    section .textInput .query:focus-visible {
+        outline: 1.5px solid #0DD67F;
+    
     }
 
 }
@@ -623,6 +637,10 @@ section .textInput .searchButton {
     cursor: pointer;
 
 }
+section .textInput .searchButton:focus-visible {
+    outline: 3.5px solid #0DD67F;
+
+}
 
 @media only screen and (max-width: 837px) {
     section .textInput .searchButton {
@@ -649,6 +667,11 @@ section .textInput .searchButton {
         flex: none;
         order: 2;
         flex-grow: 0;
+    }
+
+    section .textInput .searchButton:focus-visible {
+        outline: 3.5px solid #0DD67F;
+    
     }
 }
 
@@ -677,6 +700,11 @@ section .textInput .searchButton {
         flex: none;
         order: 2;
         flex-grow: 0;
+    }
+
+    section .textInput .searchButton:focus-visible {
+        outline: 1.5px solid #0DD67F;
+    
     }
 
 }

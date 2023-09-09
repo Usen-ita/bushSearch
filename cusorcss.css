@@ -1,9 +1,9 @@
 .cursor{
     position: fixed;
-    /* width: 20px;
-    height: 20px; */
-    width: 372px;
-    height: 372px;
+    width: 50px;
+    height: 50px; 
+    /* width: 372px;
+    height: 372px; */
     border-radius: 50%;
     background: #4C2E05;
     opacity: 0.6;
@@ -28,7 +28,7 @@
   }
 
 section:hover .cursor{
-    transform: scale(5);
+    transform: scale(3);
 }
 
 @media only screen and (max-width: 430px) {
